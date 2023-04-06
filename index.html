@@ -13,29 +13,15 @@
         <div class="tamagotchi">
             <img src="tamagotchi.png" alt="電子雞圖片" id="tamagotchi-image">
         </div>
+        <div id="stats">
+            <p>飢餓值: <span id="hunger"></span></p>
+            <p>愛心值: <span id="happiness"></span></p>
+        </div>
         <button onclick="feed()">餵食</button>
         <button onclick="play()">玩耍</button>
         <button onclick="sleep()">睡覺</button>
+        <button onclick="clean()">清潔</button>
     </div>
     <script src="script.js"></script>
-</body>
-</html>
-
-<button onclick="clean()">Clean</button>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>電子雞</title>
-</head>
-<body>
-    <img id="tamagotchi-image" src="tamagotchi.png" alt="Tamagotchi">
-    <div id="stats">
-        <p>飢餓值: <span id="hunger"></span></p>
-        <p>愛心值: <span id="happiness"></span></p>
-    </div>
-    <script src="tamagotchi.js"></script>
 </body>
 </html>
